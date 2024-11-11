@@ -3,6 +3,7 @@ function autofillForm(userDetails) {
       firstName: ["first_name", "firstname", "fname", "First Name", "first", "given-name"],
       lastName: ["last_name", "lastname", "lname", "Last Name", "last", "family-name"],
       fullName: ["full_name", "fullname", "Full Name", "name", "applicant_name"],
+      gender:["user_gender","sex","gender_identity"],   
       email: ["email", "user_email", "email1", "Your email address", "email-address"],
       phone: ["phone", "user_phone", "phone_number", "Phone", "tel", "contact_number", "mobile", "mobile_number"],
       address: ["address", "Address", "location", "home_address"],
